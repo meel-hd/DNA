@@ -17,10 +17,10 @@ This project provides tools to:
 Offset  Size      Description
 0       4         Signature: "SEQ\x01"
 4       1         Version (currently 0x01)
-5       2         Metadata length (uint32_t)
+5       4         Metadata length (uint32_t)
 9       N         Metadata string (FASTA header)
 9+N     1         Type: 1 = DNA, 2 = RNA
-10+N    4         Sequence length in bases (uint64_t)
+10+N    8         Sequence length in bases (uint64_t)
 18+N    ?         Sequence data (2 bits per base, packed)
 ```
 
