@@ -1,0 +1,56 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+a.out
+
+# Your specific executable (replace 'program' with your actual executable name)
+program
+dna_parser
+main
+
+# Temporary files
+temp
+*.tmp
+*~
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Generated dependency files
+*.d
+
+# Core dumps
+core
+core.*
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build directories
+build/
+bin/
+obj/
+
+# Backup files
+*.bak
+*.backup
